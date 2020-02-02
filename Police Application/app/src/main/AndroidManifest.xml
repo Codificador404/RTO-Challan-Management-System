@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.krishbarcode.police_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+
+        <activity
+            android:name=".Login_page_1"
+            android:label="Login Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".create_challan_2" />
+        <activity
+            android:name=".Police_main"
+            android:label="Police"
+            android:theme="@style/AppTheme.NoActionBar"
+             />
+        <activity
+            android:name=".searchuser"
+            android:label="Search User" />
+        <activity
+            android:name=".user_profile"
+            android:label="User Profile" />
+        <activity
+            android:name=".userchallandetail"
+            android:label="User Challan Details" />
+        <activity
+            android:name=".userdocument"
+            android:label="User Document" />
+        <activity
+            android:name=".search_rep"
+            android:label="Serch Vehical No" />
+        <activity
+            android:name=".view_report"
+            android:label="Send Notification" />
+        <activity android:name=".Rep_crime" />
+        <activity
+            android:name=".viewPolicedetail"
+            android:label="Police Detail" />
+        <activity
+            android:name=".viewuserdetail"
+            android:label="User Detail" />
+        <activity android:name=".viewchallandetails"></activity>
+    </application>
+
+</manifest>

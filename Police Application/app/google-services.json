@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "1012874506311",
+    "firebase_url": "https://accountant-95579.firebaseio.com",
+    "project_id": "accountant-95579",
+    "storage_bucket": "accountant-95579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012874506311:android:dd8a1a44600a3901",
+        "android_client_info": {
+          "package_name": "com.krishbarcode.police_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012874506311-0ooq5mmnjiblofl51822r6uaj18n5rpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishbarcode.police_app",
+            "certificate_hash": "3e625c01926b3db864fe9d4be79ff3c3d18bed1d"
+          }
+        },
+        {
+          "client_id": "1012874506311-j0g04r7nmci2ujpg8r068dn5ijbs2v8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishbarcode.police_app",
+            "certificate_hash": "4d1e33792ec5134ec49ccf12e3abb7181aed6c08"
+          }
+        },
+        {
+          "client_id": "1012874506311-k0e7qufhfp6gdi019v6esuni1sdh6rg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz2kxODM7Z09DkBaOCueoDZM8lB6BecMY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012874506311-k0e7qufhfp6gdi019v6esuni1sdh6rg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012874506311:android:10f89ccbddfd367d",
+        "android_client_info": {
+          "package_name": "com.krishbarcode.firebase_realtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012874506311-pv5p967iitq1g3fbc1omoimbasclb1mr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishbarcode.firebase_realtime",
+            "certificate_hash": "4d1e33792ec5134ec49ccf12e3abb7181aed6c08"
+          }
+        },
+        {
+          "client_id": "1012874506311-k0e7qufhfp6gdi019v6esuni1sdh6rg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz2kxODM7Z09DkBaOCueoDZM8lB6BecMY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012874506311-k0e7qufhfp6gdi019v6esuni1sdh6rg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

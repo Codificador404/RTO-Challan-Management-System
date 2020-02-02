@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">பயனர்</string>
+    <string name="title_activity_user_main">UserMainActivity</string>
+
+    <string name="navigation_drawer_open">வழிசெலுத்தல் டிராயரைத் திற</string>
+    <string name="navigation_drawer_close">வழிசெலுத்தல் டிராயரை மூடு</string>
+
+    <string name="action_settings">அமைப்புகள்</string>
+    <string name="click_here_to_add_contacts">தொடர்புகள் சேர்க்க இங்கே கிளிக் செய்க ....</string>
+
+
+    <string name="camera_button_text">பதிவேற்றம்</string>
+    <string name="sign_in_prompt">தொடங்க உள்நுழைக</string>
+    <string name="take_photo_prompt">ஒரு புகைப்படத்தை பதிவேற்ற</string>
+    <string name="download">பதிவிறக்க</string>
+    <string name="sign_in_anonymously">உள்நுழைக</string>
+    <string name="rationale_storage">பதிவேற்றலை நிரூபிக்க, இந்த மாதிரி உங்கள் கேமராவின் படங்களைப் படிக்கும்.</string>
+    <string name="label_link">பதிவேற்றிய கோப்பில் இணைப்பு</string>
+    <string name="label_download">பதிவிறக்க கோப்பு</string>
+    <string name="log_out">வெளியேறு</string>
+    <string name="success">வெற்றி</string>
+
+    <string name="progress_downloading">இறக்குகிறது ...</string>
+    <string name="progress_uploading">ஏற்றுகிறது ...</string>
+    <string name="progress_auth">உள்நுழைகிறது ...</string>
+
+    <string name="upload_success">பதிவேற்றம் முடிந்தது</string>
+    <string name="upload_failure">பதிவேற்றம் தோல்வியுற்றது</string>\
+
+    <string name="download_success">பதிவிறக்கம் முடிந்தது</string>
+    <string name="download_failure">தோல்வி</string>
+    <string name="enter_email_here">மின்னஞ்சல் முகவரியை உள்ளிடவும்</string>
+    <string name="enter_password_address">இங்கே கடவுச்சொல்லை உள்ளிடுக</string>
+    <string name="signup">இணைந்ததற்கு</string>
+    <string name="signin">உள்நுழைக</string>
+    <string name="sign_up">பதிவு செய்க</string>
+    <string name="first_name">முதல் பெயர்</string>
+    <string name="last_name">கடைசி பெயர்</string>
+    <string name="vehicle_no">வாகன எண்</string>
+    <string name="contact_no">தொடர்பு எண்.</string>
+    <string name="aadhaar_no">ஆடார் எண்.</string>
+    <string name="age">வயது</string>
+    <string name="next">அடுத்த</string>
+    <string name="message">செய்தி</string>
+    <string name="call">அழைப்பு</string>
+    <string name="emergency_contact">அவசர தொடர்பு</string>
+    <string name="send_notification">அறிவிப்பை அனுப்பு</string>
+    <string name="add_contact_1">தொடர்பு சேர்க்கவும் 1</string>
+    <string name="add_contact_2">2 ஐச் சேர்</string>
+    <string name="add_contact_3">3 ஐச் சேர்க்கவும்</string>
+    <string name="done">முடிந்தது</string>
+    <string name="unpaid">செலுத்தப்படாத</string>
+    <string name="paid">பணம்</string>
+    <string name="verify_email">மின்னஞ்சலை உறுதிசெய்யுங்கள்</string>
+    <string name="verify">சரிபார்க்க</string>
+
+    <string name="search">தேடல்</string>
+    <string name="enter_vehicle_number">வாகன எண்ணை உள்ளிடவும்</string>
+    <string name="next1">அடுத்த</string>
+    <string name="add_image">படத்தைச் சேர்</string>
+    <string name="add_adhar_card">ஆதரவு அட்டையைச் சேர்க்கவும்</string>
+    <string name="add_licence">உரிமம் சேர்க்க</string>
+    <string name="add_rc_book">RC புத்தகத்தைச் சேர்க்கவும்</string>
+    <string name="view">காண்க</string>
+    <string name="adhar_card">ஆதார் அட்டை:</string>
+    <string name="licence">உரிமம்:</string>
+    <string name="rcbook">RCbook:</string>
+    <string name="name">பெயர்:</string>
+    <string name="vehical_no">வாகனம் இல்லை .:</string>
+    <string name="challan_detail">சலான் விரிவாக</string>
+    <string name="online_challan_payment">ஆன்லைன் சவால் கட்டணம்</string>
+    <string name="report_accidents">விபத்துக்களைப் புகாரளி</string>
+    <string name="Register">பதிவு</string>
+    <string name="Login">உள் நுழை</string>
+    <string name="Profile">விவரம்</string>
+    <string name="addcontacts">தொடர்புகள் சேர்க்கவும்</string>
+    <string name="addprofileimage">சுயவிவர படத்தைச் சேர்</string>
+    <string name="accountverifiacation">கணக்கு சரிபார்ப்பு</string>
+    <string name="reportaccident">விபத்து குறித்து புகாரளிக்கவும்</string>
+    <string name="sendnotification">அறிவிப்பை அனுப்பு</string>
+    <string name="challandetails">சவால் விவரங்கள்</string>
+    <string name="uploadsdocument">ஆவணங்கள் பதிவேற்றவும்</string>
+    <string name="viewdocument">ஆவணங்களைக் காணலாம்</string>
+    <string name="noparkingreport">இல்லை பார்க்கிங் அறிக்கை</string>
+    <string name="noparkingsearch">இல்லை பார்க்கிங் தேடல்</string>
+</resources>

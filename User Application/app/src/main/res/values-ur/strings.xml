@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">صارف</string>
+    <string name="title_activity_user_main">UserMainActivity</string>
+
+    <string name="navigation_drawer_open">کھولیں نیویگیشن دراج</string>
+    <string name="navigation_drawer_close">بند نیویگیشن دراج</string>
+
+    <string name="action_settings">ترتیبات</string>
+    <string name="click_here_to_add_contacts">رابطوں کو شامل کرنے کیلئے یہاں کلک کریں ....</string>
+
+
+    <string name="camera_button_text">اپ لوڈ کریں</string>
+    <string name="sign_in_prompt">سائن ان کرنے کے لئے</string>
+    <string name="take_photo_prompt">تصویر اپ لوڈ کریں</string>
+    <string name="download">ڈاؤن لوڈ کریں</string>
+    <string name="sign_in_anonymously">داخلہ</string>
+    <string name="rationale_storage">اپ لوڈ کرنے کا مظاہرہ کرنے کے لئے یہ نمونے اپنے کیمرے سے تصاویر کو پڑھتا ہے.</string>
+    <string name="label_link">اپ لوڈ کردہ فائل سے لنک</string>
+    <string name="label_download">فائل ڈاؤن لوڈ کریں</string>
+    <string name="log_out">لاگ آوٹ</string>
+    <string name="success">کامیابی</string>
+
+    <string name="progress_downloading">ڈاؤن لوڈ کر رہا ہے ...</string>
+    <string name="progress_uploading">اپ لوڈ کر رہا ہے ...</string>
+    <string name="progress_auth">سائن ان کریں ...</string>
+
+    <string name="upload_success">اپ لوڈ ختم</string>
+    <string name="upload_failure">اپ لوڈناکام</string>\
+
+    <string name="download_success">ڈاؤن لوڈ ختم</string>
+    <string name="download_failure">ناکامی ڈاؤن لوڈ کریں</string>
+    <string name="enter_email_here">ای میل ایڈریس درج کریں</string>
+    <string name="enter_password_address">پاس ورڈ یہاں درج کریں</string>
+    <string name="signup">سائن اپ</string>
+    <string name="signin">داخلہ</string>
+    <string name="sign_up">سائن اپ</string>
+    <string name="first_name">پہلا نام</string>
+    <string name="last_name">آخری نام</string>
+    <string name="vehicle_no">گاڑی نمبر.</string>
+    <string name="contact_no">رابطہ نمبر.</string>
+    <string name="aadhaar_no">بنیاد نمبر</string>
+    <string name="age">عمر</string>
+    <string name="next">اگلے</string>
+    <string name="message">پیغام</string>
+    <string name="call">CAll</string>
+    <string name="emergency_contact">ہنگامی رابطے</string>
+    <string name="send_notification">اطلاع بھیجیں</string>
+    <string name="add_contact_1">رابطہ 1 شامل کریں</string>
+    <string name="add_contact_2">رابطہ 2 شامل کریں</string>
+    <string name="add_contact_3">رابطہ 3 شامل کریں</string>
+    <string name="done">ہو گیا</string>
+    <string name="unpaid">نام نہاد</string>
+    <string name="paid">ادا کیا</string>
+    <string name="verify_email">ای میل کی توثیق کریں</string>
+    <string name="verify">تصدیق کریں</string>
+
+    <string name="search">تلاش کریں</string>
+    <string name="enter_vehicle_number">گاڑی نمبر درج کریں</string>
+    <string name="next1">اگلے</string>
+    <string name="add_image">تصویر شامل کریں</string>
+    <string name="add_adhar_card">سپورٹ کارڈ شامل کریں</string>
+    <string name="add_licence">لائسنس شامل کریں</string>
+    <string name="add_rc_book">آر سی کتاب شامل کریں</string>
+    <string name="view">دیکھیں</string>
+    <string name="adhar_card">بنیاد کارڈ:</string>
+    <string name="licence">لائسنس:</string>
+    <string name="rcbook">RCbook:</string>
+    <string name="name">نام:</string>
+    <string name="vehical_no">گاڑی نمبر.:</string>
+    <string name="challan_detail">چالان کی تفصیل</string>
+    <string name="online_challan_payment">آن لائن چالان ادائیگی</string>
+    <string name="report_accidents">رپورٹ حادثات</string>
+    <string name="Register">رجسٹر کریں</string>
+    <string name="Login">میں لاگ ان کریں</string>
+    <string name="Profile">پروفائل</string>
+    <string name="addcontacts">رابطہ شامل کریں</string>
+    <string name="addprofileimage">پروفائل کی تصویر شامل کریں</string>
+    <string name="accountverifiacation">اکاؤنٹ کی توثیق</string>
+    <string name="reportaccident">رپورٹ حادثہ</string>
+    <string name="sendnotification">اطلاع بھیجیں</string>
+    <string name="challandetails">چالان کی تفصیلات</string>
+    <string name="uploadsdocument">دستاویزات اپ لوڈ کریں</string>
+    <string name="viewdocument">دستاویزات دیکھیں</string>
+    <string name="noparkingreport">پارکنگ کی رپورٹ نہیں</string>
+    <string name="noparkingsearch">پارکنگ کی تلاش نہیں</string>
+</resources>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">ব্যবহারকারী</string>
+    <string name="title_activity_user_main">UserMainActivity</string>
+
+    <string name="navigation_drawer_open">ন্যাভিগেশন ড্রয়ারের খুলুন</string>
+    <string name="navigation_drawer_close">ন্যাভিগেশন ড্রয়ারের বন্ধ করুন</string>
+
+    <string name="action_settings">সেটিংস</string>
+    <string name="click_here_to_add_contacts">পরিচিতিগুলি যোগ করতে এখানে ক্লিক করুন ....</string>
+
+
+    <string name="camera_button_text">আপলোড</string>
+    <string name="sign_in_prompt">শুরু করতে সাইন ইন করুন</string>
+    <string name="take_photo_prompt">একটি ছবি আপলোড করুন</string>
+    <string name="download">ডাউনলোড</string>
+    <string name="sign_in_anonymously">প্রবেশ কর</string>
+    <string name="rationale_storage">এই নমুনা আপলোড প্রদর্শনের জন্য আপনার ক্যামেরা থেকে ছবিগুলি পড়ে।</string>
+    <string name="label_link">আপলোড করা ফাইলের লিঙ্ক</string>
+    <string name="label_download">ডাউনলোড ফাইল</string>
+    <string name="log_out">প্রস্থান</string>
+    <string name="success">সাফল্য</string>
+
+    <string name="progress_downloading">ডাউনলোড করা হচ্ছে ...</string>
+    <string name="progress_uploading">আপলোড হচ্ছে ...</string>
+    <string name="progress_auth">সাইন ইন…</string>
+
+    <string name="upload_success">আপলোড সমাপ্ত</string>
+    <string name="upload_failure">আপলোড ব্যর্থ হয়েছে</string>\
+
+    <string name="download_success">ডাউনলোড সমাপ্ত</string>
+    <string name="download_failure">ডাউনলোড ব্যর্থতা</string>
+    <string name="enter_email_here">ইমেইল অ্যাড্রেস দিন</string>
+    <string name="enter_password_address">এখানে পাসওয়ার্ড লিখুন</string>
+    <string name="signup">নিবন্ধন করুন</string>
+    <string name="signin">প্রবেশ কর</string>
+    <string name="sign_up">নিবন্ধন করুন</string>
+    <string name="first_name">নামের প্রথম অংশ</string>
+    <string name="last_name">নামের শেষাংশ</string>
+    <string name="vehicle_no">যানবাহন নম্বর</string>
+    <string name="contact_no">যোগাযোগের নম্বর.</string>
+    <string name="aadhaar_no">আধার সংখ্যা</string>
+    <string name="age">বয়স</string>
+    <string name="next">পরবর্তী</string>
+    <string name="message">বার্তা</string>
+    <string name="call">ডাক</string>
+    <string name="emergency_contact">জরুরী যোগাযোগ</string>
+    <string name="send_notification">বিজ্ঞপ্তি পাঠান</string>
+    <string name="add_contact_1">যোগাযোগ 1 যোগ করুন</string>
+    <string name="add_contact_2">যোগাযোগ 2 যোগ করুন</string>
+    <string name="add_contact_3">যোগাযোগ 3 যোগ করুন</string>
+    <string name="done">সম্পন্ন</string>
+    <string name="unpaid">অবৈতনিক</string>
+    <string name="paid">পেইড</string>
+    <string name="verify_email">ইমেল যাচাই করুন</string>
+    <string name="verify">যাচাই</string>
+
+    <string name="search">অনুসন্ধান</string>
+    <string name="enter_vehicle_number">গাড়ির সংখ্যা লিখুন</string>
+    <string name="next1">পরবর্তী</string>
+    <string name="add_image">ছবি যোগ কর</string>
+    <string name="add_adhar_card">সহায়তা কার্ড যোগ করুন</string>
+    <string name="add_licence">লাইসেন্স জুড়ুন</string>
+    <string name="add_rc_book">আরসি বই যোগ করুন</string>
+    <string name="view">দৃশ্য</string>
+    <string name="adhar_card">ভিতরের কার্ড:</string>
+    <string name="licence">লাইসেন্স:</string>
+    <string name="rcbook">RCbook:</string>
+    <string name="name">নাম:</string>
+    <string name="vehical_no">যানবাহন নং:</string>
+    <string name="challan_detail">চ্যালেঞ্জ বিস্তারিত</string>
+    <string name="online_challan_payment">অনলাইন চালান পেমেন্ট</string>
+    <string name="report_accidents">দুর্ঘটনা রিপোর্ট করুন</string>
+    <string name="Register">নিবন্ধন</string>
+    <string name="Login">লগইন</string>
+    <string name="Profile">প্রোফাইলের</string>
+    <string name="addcontacts">পরিচিতি যোগ করুন</string>
+    <string name="addprofileimage">প্রোফাইল চিত্র যোগ করুন</string>
+    <string name="accountverifiacation">অ্যাকাউন্ট পরীক্ষা</string>
+    <string name="reportaccident">দুর্ঘটনা রিপোর্ট করুন</string>
+    <string name="sendnotification">বিজ্ঞপ্তি পাঠান</string>
+    <string name="challandetails">চ্যালেঞ্জের বিবরণ</string>
+    <string name="uploadsdocument">দস্তাবেজগুলি আপলোড করুন</string>
+    <string name="viewdocument">ডকুমেন্ট দেখুন</string>
+    <string name="noparkingreport">কোন পার্কিং রিপোর্ট</string>
+    <string name="noparkingsearch">কোন পার্কিং অনুসন্ধান</string>
+</resources>

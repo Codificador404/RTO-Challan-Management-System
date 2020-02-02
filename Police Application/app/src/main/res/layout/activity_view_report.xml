@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.krishbarcode.police_app.view_report">
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="46dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/i1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Contact"
+        android:textColor="@color/textview"
+        android:textSize="20sp"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/con1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="128dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/sn"
+        android:layout_width="217dp"
+        android:layout_height="42dp"
+        android:text="Send Notification"
+        android:onClick="notify"
+        android:background="@color/buttons"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="265dp"
+        android:layout_below="@+id/con3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/con2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="163dp"
+        android:layout_below="@+id/con1"
+        android:layout_alignLeft="@+id/con1"
+        android:layout_alignStart="@+id/con1"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/con3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="200dp"
+        android:layout_below="@+id/con2"
+        android:layout_alignLeft="@+id/con2"
+        android:layout_alignStart="@+id/con2"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@color/background"
+        tools:context="com.krishbarcode.firebase_realtime.Documents">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+
+                android:layout_height="65dp"
+                android:textSize="20dp"
+                android:background="@drawable/button_rounded"
+                android:textColor="@color/buttontxt"
+                android:layout_margin="20dp"
+                android:onClick="adhar"
+                android:text=" add Adhar Card" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:textSize="20dp"
+                android:onClick="licence"
+                android:background="@drawable/button_rounded"
+                android:textColor="@color/buttontxt"
+                android:layout_margin="20dp"
+                android:text=" add Licence" />
+            <Button
+                android:id="@+id/button3"
+                android:onClick="rcbook"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:textSize="20dp"
+                android:background="@drawable/button_rounded"
+                android:textColor="@color/buttontxt"
+                android:layout_margin="20dp"
+                android:text="add RC book" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/submit"
+                android:onClick="done"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded"
+                android:textColor="@color/buttontxt"
+                android:layout_margin="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Done" />
+            <Button
+                android:id="@+id/view"
+                android:onClick="view"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_rounded"
+                android:textColor="@color/buttontxt"
+                android:layout_marginRight="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+            </LinearLayout>
+            >
+            <ImageView
+                android:id="@+id/adhar"
+                android:layout_height="250dp"
+                android:layout_width="match_parent" />
+
+            <ImageView
+                android:layout_below="@+id/adhar"
+                android:id="@+id/licence"
+                android:layout_height="250dp"
+                android:layout_width="match_parent" />
+            <ImageView
+                android:id="@+id/rcbook"
+                android:layout_below="@+id/licence"
+                android:layout_height="250dp"
+                android:layout_width="match_parent" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

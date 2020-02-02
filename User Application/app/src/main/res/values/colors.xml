@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <color name="label">#455A64</color>
+        <color name="background">#fffdd0</color>
+        <color name="buttons">#455A64</color>
+        <color name="buttontxt">#fffdd0</color>
+        <color name="textview">#455A64</color>
+        <color name="hint">#455A64</color>
+        <color name="colorPrimaryDark">#455A64</color>
+        <color name="colorPrimary">#455A64</color>
+        <color name="colorAccent">#455A64</color>
+
+        <color name="cardredback">#ff9980</color>
+        <color name="cardgreenback">#c1f0c1</color>
+
+</resources>

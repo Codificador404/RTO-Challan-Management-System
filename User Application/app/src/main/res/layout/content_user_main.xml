@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.krishbarcode.firebase_realtime.UserMainActivity"
+    tools:showIn="@layout/app_bar_user_main">
+
+    <ImageView
+        android:id="@+id/proimage"
+        android:onClick="notifytoactivity"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/namelay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/proimage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name          :"
+            android:textColor="@color/textview"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textview"
+            android:layout_weight="4"
+
+            android:text=""
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vehlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namelay"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/textview"
+            android:text="Vehical no. :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/veh_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="@color/textview"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:id="@+id/buttonlay"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vehlay"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+
+        <Button
+            android:id="@+id/challandetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challan Detail"
+            android:background="@drawable/button_rounded"
+            android:textColor="@color/buttontxt"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:onClick="challanDetails"/>
+
+
+        <Button
+            android:id="@+id/reportaccident"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Accidents"
+            android:background="@drawable/button_rounded"
+            android:textColor="@color/buttontxt"
+            android:textSize="20sp"
+            android:onClick="reportAccident"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

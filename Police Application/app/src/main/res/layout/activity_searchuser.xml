@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.krishbarcode.police_app.searchuser">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+    <EditText
+        android:layout_width="300dp"
+        android:hint="Enter vehicle no.:"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+
+        android:layout_marginLeft="40dp"
+        android:id="@+id/vehno1"
+        android:inputType="textCapSentences"
+        />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/next"
+        android:background="@color/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Search"
+        android:onClick="serch"/>
+</LinearLayout>

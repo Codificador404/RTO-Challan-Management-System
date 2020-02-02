@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">police_app</string>
+    <string name="title_activity_police_main">Police_main</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_police_main2">police_main2</string>
+    <string name="click_image">Click Image</string>
+    <string name="make_challan">Make Challan</string>
+</resources>

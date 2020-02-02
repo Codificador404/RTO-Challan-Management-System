@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.krishbarcode.firebase_realtime.SetProfileImage">
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"
+        android:text="Add Image"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:onClick="addimage"
+        android:background="@drawable/button_rounded"
+        android:textColor="@color/buttontxt"
+
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/profileimage"
+            android:layout_width="345dp"
+            android:layout_height="345dp"
+
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp" />
+
+        <Button
+            android:id="@+id/next"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rounded" android:textColor="@color/buttontxt"
+
+            android:layout_gravity="right"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">वापरकर्ता</string>
+    <string name="title_activity_user_main">UserMainActivity</string>
+
+    <string name="navigation_drawer_open">नेव्हिगेशन ड्रॉवर उघडा</string>
+    <string name="navigation_drawer_close">नेव्हिगेशन ड्रॉवर बंद करा</string>
+
+    <string name="action_settings">सेटिंग्ज</string>
+    <string name="click_here_to_add_contacts">संपर्क जोडा जोडण्यासाठी येथे क्लिक करा ....</string>
+
+
+    <string name="camera_button_text">अपलोड करा</string>
+    <string name="sign_in_prompt">सुरू करण्यासाठी साइन इन करा</string>
+    <string name="take_photo_prompt">फोटो अपलोड करा</string>
+    <string name="download">डाउनलोड करा</string>
+    <string name="sign_in_anonymously">साइन इन करा</string>
+    <string name="rationale_storage">हे नमुना आपल्या कॅमेर्यावरील प्रतिमा अपलोड करणे प्रदर्शित करते.</string>
+    <string name="label_link">चढविलेल्या फाइलचा दुवा</string>
+    <string name="label_download">फाइल डाउनलोड करा</string>
+    <string name="log_out">बाहेर पडणे</string>
+    <string name="success">यश</string>
+
+    <string name="progress_downloading">डाऊनलोड करीत आहे ...</string>
+    <string name="progress_uploading">अपलोड करीत आहे ...</string>
+    <string name="progress_auth">साइन इन करत आहे ...</string>
+
+    <string name="upload_success">अपलोड पूर्ण</string>
+    <string name="upload_failure">अपलोड अयशस्वी</string>\
+
+    <string name="download_success">डाउनलोड समाप्त</string>
+    <string name="download_failure">डाउनलोड अयशस्वी</string>
+    <string name="enter_email_here">ईमेल पत्ता प्रविष्ट करा</string>
+    <string name="enter_password_address">पासवर्ड येथे प्रविष्ट करा</string>
+    <string name="signup">साइनअप</string>
+    <string name="signin">साइन इन</string>
+    <string name="sign_up">साइन अप करा</string>
+    <string name="first_name">पहिले नाव</string>
+    <string name="last_name">आडनाव</string>
+    <string name="vehicle_no">वाहन क्रमांक</string>
+    <string name="contact_no">संपर्क क्रमांक</string>
+    <string name="aadhaar_no">आधार क्रमांक</string>
+    <string name="age">वय</string>
+    <string name="next">पुढे</string>
+    <string name="message">संदेश</string>
+    <string name="call">कॅल</string>
+    <string name="emergency_contact">आणीबाणी संपर्क</string>
+    <string name="send_notification">सूचना पाठवा</string>
+    <string name="add_contact_1">संपर्क जोडा 1</string>
+    <string name="add_contact_2">संपर्क जोडा 2</string>
+    <string name="add_contact_3">संपर्क जोडा 3</string>
+    <string name="done">झाले</string>
+    <string name="unpaid">न चुकता</string>
+    <string name="paid">सशुल्क</string>
+    <string name="verify_email">ईमेल सत्यापित करा</string>
+    <string name="verify">सत्यापित करा</string>
+
+    <string name="search">शोध</string>
+    <string name="enter_vehicle_number">वाहन नंबर प्रविष्ट करा</string>
+    <string name="next1">पुढे</string>
+    <string name="add_image">प्रतिमा जोडा</string>
+    <string name="add_adhar_card">समर्थन कार्ड जोडा</string>
+    <string name="add_licence">लायसेन्स जोडा</string>
+    <string name="add_rc_book">आर.सी. पुस्तक जोडा</string>
+    <string name="view">पहा</string>
+    <string name="adhar_card">आधार कार्ड:</string>
+    <string name="licence">परवाना:</string>
+    <string name="rcbook">आरसीबुक:</string>
+    <string name="name">नाव:</string>
+    <string name="vehical_no">वाहन क्रमांक:</string>
+    <string name="challan_detail">चलन तपशील</string>
+    <string name="online_challan_payment">ऑनलाईन चलन भरणा</string>
+    <string name="report_accidents">अपघातांचा अहवाल द्या</string>
+    <string name="Register">नोंदणी करा</string>
+    <string name="Login">लॉग इन</string>
+    <string name="Profile">प्रोफाइल</string>
+    <string name="addcontacts">संपर्क जोडा</string>
+    <string name="addprofileimage">प्रोफाइल प्रतिमा जोडा</string>
+    <string name="accountverifiacation">खाते सत्यापन</string>
+    <string name="reportaccident">अपघातचा अहवाल द्या</string>
+    <string name="sendnotification">सूचना पाठवा</string>
+    <string name="challandetails">चलन तपशील</string>
+    <string name="uploadsdocument">दस्तऐवज अपलोड करा</string>
+    <string name="viewdocument">दस्तऐवज पहा</string>
+    <string name="noparkingreport">पार्किंगची तक्रार नाही</string>
+    <string name="noparkingsearch">कोणतेही पार्किंग शोध नाही</string>
+</resources>

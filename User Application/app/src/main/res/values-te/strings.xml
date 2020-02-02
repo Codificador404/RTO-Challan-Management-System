@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">యూజర్</string>
+    <string name="title_activity_user_main">UserMainActivity</string>
+
+    <string name="navigation_drawer_open">నావిగేషన్ డ్రాయర్ తెరవండి</string>
+    <string name="navigation_drawer_close">నావిగేషన్ డ్రాయర్ని మూసివేయి</string>
+
+    <string name="action_settings">సెట్టింగులు</string>
+    <string name="click_here_to_add_contacts">పరిచయాలను జోడించడానికి ఇక్కడ క్లిక్ చేయండి ....</string>
+
+
+    <string name="camera_button_text">అప్లోడ్</string>
+    <string name="sign_in_prompt">ప్రారంభించడానికి సైన్ ఇన్ చేయండి</string>
+    <string name="take_photo_prompt">చిత్ర మును అప్లోడ్ చేయండి</string>
+    <string name="download">డౌన్లోడ్</string>
+    <string name="sign_in_anonymously">సైన్ ఇన్ చేయండి</string>
+    <string name="rationale_storage">ఈ నమూనా అప్లోడ్ చేయడాన్ని ప్రదర్శించడానికి మీ కెమెరా నుండి చిత్రాలను చదువుతుంది.</string>
+    <string name="label_link">అప్లోడ్ చేసిన ఫైల్కు లింకు</string>
+    <string name="label_download">ఫైల్ డౌన్లోడ్</string>
+    <string name="log_out">లాగ్ అవుట్</string>
+    <string name="success">విజయం</string>
+
+    <string name="progress_downloading">డౌన్లోడ్ చేస్తోంది ...</string>
+    <string name="progress_uploading">లోడ్ అవుతోంది ...</string>
+    <string name="progress_auth">లోనికి ప్రవేశించు…</string>
+
+    <string name="upload_success">అప్లోడ్ పూర్తయింది</string>
+    <string name="upload_failure">అప్లోడ్ విఫలమైంది</string>\
+
+    <string name="download_success">డౌన్లోడ్ పూర్తయింది</string>
+    <string name="download_failure">డౌన్లోడ్ వైఫల్యం</string>
+    <string name="enter_email_here">ఈ - మెయిల్ అడ్రస్ నింపండి</string>
+    <string name="enter_password_address">ఇక్కడ పాస్ వర్డ్ ను ఎంటర్ చెయ్యండి</string>
+    <string name="signup">చేరడం</string>
+    <string name="signin">సైన్ ఇన్ చేయండి</string>
+    <string name="sign_up">చేరడం</string>
+    <string name="first_name">మొదటి పేరు</string>
+    <string name="last_name">చివరి పేరు</string>
+    <string name="vehicle_no">వాహన నం</string>
+    <string name="contact_no">సంప్రదంచాల్సిన నెం.</string>
+    <string name="aadhaar_no">ఆధార్ నం.</string>
+    <string name="age">వయసు</string>
+    <string name="next">తరువాత</string>
+    <string name="message">సందేశం</string>
+    <string name="call">కాల్</string>
+    <string name="emergency_contact">అత్యవసర సంప్రదింపు</string>
+    <string name="send_notification">నోటిఫికేషన్ పంపండి</string>
+    <string name="add_contact_1">పరిచయం 1 జోడించండి</string>
+    <string name="add_contact_2">2 ని సంప్రదించండి</string>
+    <string name="add_contact_3">3 ని సంప్రదించండి</string>
+    <string name="done">పూర్తి</string>
+    <string name="unpaid">చెల్లించని</string>
+    <string name="paid">చెల్లింపు</string>
+    <string name="verify_email">ఇమెయిల్ నిర్ధారించండి</string>
+    <string name="verify">ధ్రువీకరించడం</string>
+
+    <string name="search">శోధన</string>
+    <string name="enter_vehicle_number">వాహన సంఖ్యను నమోదు చేయండి</string>
+    <string name="next1">తరువాత</string>
+    <string name="add_image">చిత్రాన్ని జోడించండి</string>
+    <string name="add_adhar_card">మద్దతు కార్డును జోడించండి</string>
+    <string name="add_licence">లైసెన్స్ని జోడించండి</string>
+    <string name="add_rc_book">RC పుస్తకం జోడించండి</string>
+    <string name="view">చూడండి</string>
+    <string name="adhar_card">ఆధార్ కార్డు:</string>
+    <string name="licence">లైసెన్సు:</string>
+    <string name="rcbook">RC బుక్:</string>
+    <string name="name">పేరు:</string>
+    <string name="vehical_no">వాహనం సంఖ్య:</string>
+    <string name="challan_detail">చాలన్ వివరాలు</string>
+    <string name="online_challan_payment">ఆన్లైన్ ఛలాన్ చెల్లింపు</string>
+    <string name="report_accidents">ప్రమాదాలు నివేదించండి</string>
+    <string name="Register">నమోదు</string>
+    <string name="Login">లాగిన్</string>
+    <string name="Profile">ప్రొఫైల్</string>
+    <string name="addcontacts">పరిచయాలను జోడించు</string>
+    <string name="addprofileimage">ప్రొఫైల్ చిత్రాన్ని జోడించు</string>
+    <string name="accountverifiacation">ఖాతా ధృవీకరణ</string>
+    <string name="reportaccident">ప్రమాదం నివేదించండి</string>
+    <string name="sendnotification">నోటిఫికేషన్ పంపండి</string>
+    <string name="challandetails">చాలన్ వివరాలు</string>
+    <string name="uploadsdocument">పత్రాలను అప్లోడ్ చేయండి</string>
+    <string name="viewdocument">పత్రాలను వీక్షించండి</string>
+    <string name="noparkingreport">పార్కింగ్ రిపోర్ట్ లేదు</string>
+    <string name="noparkingsearch">పార్కింగ్ శోధన లేదు</string>
+</resources>

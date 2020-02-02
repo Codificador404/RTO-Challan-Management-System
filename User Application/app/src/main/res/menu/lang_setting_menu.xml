@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/eng"
+        android:title="English"/>
+    <item
+        android:id="@+id/hn"
+        android:title="Hindi"/>
+    <item
+        android:id="@+id/ur"
+        android:title="Urdu"/>
+    <item
+        android:id="@+id/bn"
+        android:title="Bengali"/>
+    <item
+        android:id="@+id/mr"
+        android:title="Marathi"/>
+    <item
+        android:id="@+id/ta"
+        android:title="Tamil"/>
+    <item
+        android:id="@+id/te"
+        android:title="Telugu"/>
+    <item
+        android:id="@+id/pa"
+        android:title="Punjabi"/>
+
+
+</menu>

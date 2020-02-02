@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.krishbarcode.police_app.create_challan_2">
+
+    <ImageView
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:layout_margin="30dp"
+    android:id="@+id/veh"
+    android:layout_gravity="center"
+    />
+<Button
+    android:text="Click Image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#F8BBD0"
+    android:padding="10dp"
+
+    android:onClick="clickimage"
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        android:text="Enter Vehicel No:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:id="@+id/vehno"
+        />
+
+</LinearLayout>
+
+<Button
+    android:text="Make Challan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:background="#F8BBD0"
+    android:padding="10dp"
+    android:onClick="makechallan"
+    />
+
+
+</LinearLayout>

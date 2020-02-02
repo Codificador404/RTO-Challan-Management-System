@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.krishbarcode.firebase_realtime.AddContacts">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text=""
+        android:textSize="20sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_rounded"
+            android:textColor="@color/buttontxt"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:text="add contact 1"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/contactname1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/contactnumber1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contactname1"
+            android:layout_margin="10dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_rounded"
+            android:text="add contact 2"
+            android:textColor="@color/buttontxt"
+            android:textSize="20dp"
+            android:layout_margin="20dp"/>
+
+
+        <TextView
+            android:id="@+id/contactname2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/contactnumber2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contactname2"
+            android:layout_margin="10dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:text="add contact 3"
+            android:textSize="20dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="@color/buttontxt"
+            android:layout_margin="20dp"/>
+
+
+        <TextView
+            android:id="@+id/contactname3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/contactnumber3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contactname3"
+            android:layout_margin="10dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/submit"
+        android:onClick="done"
+        android:background="@drawable/button_rounded"
+        android:textColor="@color/buttontxt"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="Done" />
+</LinearLayout>

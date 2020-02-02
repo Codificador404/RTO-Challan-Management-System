@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.krishbarcode.police_app.Police_main"
+        tools:showIn="@layout/app_bar_police_main">
+
+
+        <ImageView
+            android:id="@+id/veh"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/textview" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/buttons"
+            android:onClick="clickimage"
+            android:padding="10dp"
+            android:text="@string/click_image"
+
+            android:textColor="@color/buttontxt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/vehno"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Enter Vehicle Number"
+                android:padding="10dp"
+                android:inputType="textCapWords"
+                android:textColorHint="@color/hint" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#F8BBD0"
+            android:backgroundTint="@color/buttons"
+            android:onClick="makechallan"
+            android:padding="10dp"
+            android:text="@string/make_challan"
+            android:textColor="@color/buttontxt" />
+
+
+    </LinearLayout>
+</ScrollView>
